@@ -19,6 +19,7 @@
             </keep-alive>
         </div>
         <Tabbar />
+        <router-view name="detail" /><!-- 很重要,使页面从上面跳转到下面 -->
     </div>
 </template>
 
